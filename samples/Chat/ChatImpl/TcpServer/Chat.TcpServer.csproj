@@ -8,7 +8,7 @@
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>Chat.TcpServer</AssemblyName>
     <RootNamespace>Chat.TcpServer</RootNamespace>
-    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -54,9 +54,6 @@
     <Compile Include="Server.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
@@ -73,6 +70,9 @@
       <Project>{50bd796f-5cf3-4955-a846-6a11ae1b6061}</Project>
       <Name>Chat.Library</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>

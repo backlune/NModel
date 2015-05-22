@@ -10,7 +10,7 @@
     <RootNamespace>Stepper</RootNamespace>
     <StartupObject>
     </StartupObject>
-    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -71,7 +71,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\Users\Administrator\codeplex\nmodel\src\NModel\NModel.csproj">
+    <ProjectReference Include="..\..\..\src\NModel\NModel.csproj">
       <Project>{9e9ea768-11cf-49da-919f-3bd3c3ea942b}</Project>
       <Name>NModel</Name>
     </ProjectReference>

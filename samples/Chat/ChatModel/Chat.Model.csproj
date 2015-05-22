@@ -8,7 +8,7 @@
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>Chat.Model</AssemblyName>
     <RootNamespace>Chat.Model</RootNamespace>
-    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

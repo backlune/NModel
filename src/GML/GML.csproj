@@ -11,7 +11,7 @@
     <RootNamespace>GML</RootNamespace>
     <AssemblyName>GML</AssemblyName>
     <SignAssembly>false</SignAssembly>
-    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

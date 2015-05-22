@@ -1,0 +1,5 @@
+TestResult(0, Verdict("Failure"), "Could not load file or assembly 'Chat.Library, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.",
+    Trace(
+        Setup_Start()
+    )
+)
