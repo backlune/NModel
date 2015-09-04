@@ -72,6 +72,7 @@
   <ItemGroup>
     <Compile Include="DotWriterTest.cs" />
     <Compile Include="FSMGenerationTest.cs" />
+    <Compile Include="ModelUsingSetTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReachabilityTest.cs" />
     <Compile Include="SampleModels.cs" />

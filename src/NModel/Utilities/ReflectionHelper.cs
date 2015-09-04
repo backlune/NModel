@@ -121,7 +121,9 @@ namespace NModel.Utilities
         public static bool IsCompilerGenerated(MemberInfo m)
         {
             if (null == m) return false;
-            object[] attrs = m.GetCustomAttributes(typeof(System.Runtime.CompilerServices.CompilerGeneratedAttribute), true);
+           if ((m as Type).Namespace == null) return true; // <PrivateImplementationDetails> need to be excluded
+
+         object[] attrs = m.GetCustomAttributes(typeof(System.Runtime.CompilerServices.CompilerGeneratedAttribute), true);
             return (attrs != null && attrs.Length > 0);
         }
 
